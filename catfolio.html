@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="discription" content="a simple web page I made in class">
+ <meta name="author" content="patrick barr">
+ <title> My catfolio </title>
+</head>
+<body>
+    
+    <h2><i>about me</i></h2>
+    <hr>
+ <p> I am currently taking a course in network admin with a programming class. :3 </p>
+ <p><img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoDim25Sj5loXJbpYM0NKMZI2geNtFbDme5A&s/></p>
+ <p> meow :3</p>
+ <ul><li><mark>networking</mark></li>
+    <li><mark>cpro</mark></li>
+    <li><mark>programming</mark></li>
+    <li><mark>operating systems</mark></li>
+
+    <P> </P>
+<form action="/submit" method="POST">
+<label> Username:
+<input type="text"
+name="username">
+</label>
+<label>Password:
+ <input type="password"
+name="password">
+</label>
+</form>
+
+<fieldset>
+    <legend>prefered cat</legend>
+    <lable>
+        <input type="radio" name="contact" value="cat">
+        email
+
+        <p> </p>
+        <input type="radio" name="contact" value="smol cat">
+        phone
+
+        <p> </p> 
+        <input type="radio" name="contact" value="fluffy cat">
+        fax
+
+        <p> </p>
+        <input type="radio" name="contact" value="big cat">
+        text
+
+    </lable>
+</fieldset>
+<fieldset>
+ <legend>Preferred Contact Method:</legend>
+ <label>
+ <input type="checkbox" name="contact" value="email">
+ Email
+ 
+<p></p>
+
+ <P> </P>
+ </label>
+ <label>
+ <input type="checkbox" name="contact" value="phone">
+ Phone
+ 
+ <p></p>
+ </label>
+ <label>
+ <input type="checkbox" name="contact" value="fax">
+ Fax
+ 
+ <p> </p>
+ </label>
+ <label>
+ <input type="checkbox" name="contact" value="text">
+ Text
+
+ </label>
+ </fieldset>
+
+<label>
+Name:
+<input type="text" placeholder="Enter your
+name" required maxlength="50">
+</label>
+<p></p>
+ <label>
+Email Address:
+<input type="email"
+placeholder="email@example.com" required>
+</label>
+<p></p>
+
+<label for=“country”>
+Country:
+</label>
+<select id="country" name="country">
+<option value="">Choose a country...</option>
+<option value="us">United States</option>
+<option value="ca">Canada</option>
+<option value="uk">United Kingdom</option>
+</select>
+
+<p> </p>
+<label for="message">
+    cat?:
+</label>
+<textarea id="message"
+name="message" rows="4" cols="50">
+</textarea>
+
+<form action="/upload-image" method="post"
+enctype="multipart/form-data">
+<fieldset>
+    <legend>upload cat picture</legend>
+        cat photo
+    <lable>
+        <input type="file" name="cat_picture"
+        accept="image/jpeg,image/png,image/gif"
+    required>
+</lable>
+ <small>Max file size: 5MB. Accepted formats: JPG, PNG,GIF
+ </small>
+</fieldset>
+</form>
+<p> </p>
+<button type="submit"
+function="/login">
+    log in
+</button>
+<button type="submit"
+formaction="/register">
+    register
+</button>
+
+
+
+</ul>
+</body>
+</html>
