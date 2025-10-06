@@ -1,0 +1,34 @@
+/* styles.css */
+
+/* Main page title */
+h1 {
+  color: #1e90ff; /* Dodger Blue */
+  text-align: center;
+}
+
+/* Subheading */
+h2 {
+  color: #32cd32; /* Lime Green */
+  text-align: center;
+}
+
+/* Smaller heading under title */
+h3 {
+  color: #ff4500; /* Orange Red */
+  text-align: center;
+}
+
+/* Section headings */
+h4 {
+  color: #8a2be2; /* Blue Violet */
+  text-align: center;
+}
+
+/* Extra styling if you add h5/h6 later */
+h5 {
+  color: #ff1493; /* Deep Pink */
+}
+
+h6 {
+  color: #2f4f4f; /* Dark Slate Gray */
+}
